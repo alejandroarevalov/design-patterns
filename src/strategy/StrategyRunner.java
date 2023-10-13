@@ -47,5 +47,9 @@ public class StrategyRunner {
         strategyRunner.resetList();
         strategyRunner.changeSortingAlgorithm(new SelectionSort());
         strategyRunner.run();
+        // Now, changing the sorting algorithm again and resetting the list
+        strategyRunner.resetList();
+        strategyRunner.changeSortingAlgorithm(new InsertionSort());
+        strategyRunner.run();
     }
 }
